@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import React, { Component } from 'react';
 import Art from "..//..image/Art.jpg";
 import Mode from "..//..image/Mode.jpg";
 import Religion from "..//..image/Religion.jpg";
