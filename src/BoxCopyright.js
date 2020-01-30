@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 
-class App extends Component{
+class CopyRight extends Component{
   render(){
     return (
       <div className="BoxCopy">

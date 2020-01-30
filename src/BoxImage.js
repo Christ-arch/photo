@@ -6,7 +6,7 @@ import Religion from "..//..image/Religion.jpg";
 import Valse from "..//..image/Valse.jpg";
 
 
-class App extends Component{
+class BoxImage extends Component{
   render(){
     return (
       <div className="BoxImage">
