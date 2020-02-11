@@ -31,10 +31,7 @@ class BoxImage extends Component{
          Ajouter
          {this.props.value}
          </button>
-          <button>
-        Supprimer
-        {this.props.value}
-         </button>
+          <button  onClick={this.deleteImage.bind(this)}>Supprimer</button>>
        
       </div>
     );
