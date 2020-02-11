@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Supprimer from './Supprimer';
+import Ajouter from './Ajouter';
 import Art from "..//..image/Art.jpg";
 import Mode from "..//..image/Mode.jpg";
 import Religion from "..//..image/Religion.jpg";
