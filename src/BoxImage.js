@@ -8,6 +8,8 @@ import Valse from "..//..image/Valse.jpg";
 
 
 class BoxImage extends Component{
+       deleteImage(){
+              (this.props.image);
   render(){
     return (
       <div className="BoxImage">
