@@ -10,6 +10,8 @@ import Valse from "..//..image/Valse.jpg";
 class BoxImage extends Component{
        deleteImage(){
               (this.props.image);
+              addImage(){
+                     (this.props.image)
   render(){
     return (
       <div className="BoxImage">
@@ -29,10 +31,7 @@ class BoxImage extends Component{
        </section>
        </main>
           </div>
-          <button>
-         Ajouter
-         {this.props.value}
-         </button>
+          <button  onClick={this.addImage.bind(this)}>Ajouter</button>>
           <button  onClick={this.deleteImage.bind(this)}>Supprimer</button>>
        
       </div>
